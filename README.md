@@ -8,6 +8,11 @@ This is a small application that allows you to create and manage a list of movie
 - Edit movie details such as title, genre and release year
 - Delete movies from the list.
 
+## Demo
+Here is a brief demo of the movie list
+
+![GIF](./movieList.gif)
+
 ## Technologies Used
 - `GraphQL`: A query language for APIs that allows you to request exactly the data you need.
 - `Apollo Server`: A GraphQL server that connects to a data source and handles GraphQL queries and mutations.

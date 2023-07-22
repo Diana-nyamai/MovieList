@@ -13,9 +13,9 @@ const typeDefs = gql`
         age: Int!
     }
     type Query{
-        movies: [Movie!]
+        movies: [Movie!]!
         movie(name: String!): Movie!
-        directors: [Director!]
+        directors: [Director!]!
         director(name: String!): Director!
     }
 

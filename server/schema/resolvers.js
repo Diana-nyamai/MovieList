@@ -19,8 +19,9 @@ const resolvers = {
     Mutation: {
         createMovie: (parent, args) =>{
             const id = movieList[movieList.length - 1].id;
+            idNumber = Number(id)
             const movie = args.input;
-            movie.id = id + 1;
+            movie.id = idNumber + 1;
             movieList.push(movie);
             return movie;
         },
