@@ -18,6 +18,23 @@ const typeDefs = gql`
         directors: [Director!]
         director(name: String!): Director!
     }
+
+    input movieCreateInput{
+        name: String!
+        genre: String!
+        yearReleased: String!
+    }
+    input movieUpdateInput{
+        id: ID!
+        newMovieName: String!
+        newGenre: String!
+        newYearUpdate: String!
+    }
+    type Mutation{
+        createMovie(input: movieCreateInput!): Movie
+        updateMovie(input: movieUpdateInput!): Movie
+        deleteMovie(id: ID!): Movie
+    }
 `
 
 module.exports = {typeDefs}
