@@ -1,8 +1,12 @@
 # MovieList with GraphQL, Apollo Server, and Apollo Client
+<div align="centre">
+
 [![Built with React](https://img.shields.io/badge/Built%20with-React-blue)](https://reactjs.org/)
 [![Uses GraphQL](https://img.shields.io/badge/Uses-GraphQL-purple)](https://graphql.org/)
 [![Apollo Client](https://img.shields.io/badge/Apollo%20Client-v4-blue)](https://www.apollographql.com/docs/react/)
 [![Apollo Server](https://img.shields.io/badge/Apollo%20Server-v3-green)](https://www.apollographql.com/docs/apollo-server/)
+
+</div>
 
 ##
 
